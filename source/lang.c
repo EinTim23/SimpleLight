@@ -93,107 +93,108 @@ char* gl_copying_data;
 
 unsigned char* ASC_DATA;
 
-//����
-const char zh_init_error[]="TF����ʼ��ʧ��";
-const char zh_power_off[]="�ػ�";
-const char zh_init_ok[]="TF����ʼ���ɹ�";
-const char zh_Loading[]="������...";
-const char zh_file_overflow[]="�ļ�̫��,���ܼ���";
+//中文
+const char zh_init_error[]="TF卡初始化失败";
+const char zh_power_off[]="关机";
+const char zh_init_ok[]="TF卡初始化成功";
+const char zh_Loading[]="加载中...";
+const char zh_file_overflow[]="文件太大,不能加载";
 
-const char zh_menu_btn[]=" (B)ȡ��    (A)ȷ��";
-const char zh_writing[]="����д��...";
-const char zh_lastest_game[]="��ѡ�����һ����Ϸ";
+const char zh_menu_btn[]=" (B)取消    (A)确定";
+const char zh_writing[]="正在写入...";
+const char zh_lastest_game[]="请选择最后一个游戏";
 
-const char zh_time[] ="     ʱ��";
-const char zh_Mon[]="һ";
-const char zh_Tues[]="��";
-const char zh_Wed[]="��";
-const char zh_Thur[]="��";
-const char zh_Fri[]="��";
-const char zh_Sat[]="��";
-const char zh_Sun[]="��";
+const char zh_time[] ="     时间";
+const char zh_Mon[]="一";
+const char zh_Tues[]="二";
+const char zh_Wed[]="三";
+const char zh_Thur[]="四";
+const char zh_Fri[]="五";
+const char zh_Sat[]="六";
+const char zh_Sun[]="日";
 
-const char zh_addon[]="     ����";
-const char zh_reset[]="����λ";
-const char zh_rts[]="��ʱ�浵";
-const char zh_sleep[]="˯��";
-const char zh_cheat[]="����ָ";
+const char zh_addon[]="     功能";
+const char zh_reset[]="软复位";
+const char zh_rts[]="即时存档";
+const char zh_sleep[]="睡眠";
+const char zh_cheat[]="金手指";
 
-const char zh_hot_key[]=" ˯���ȼ�";
-const char zh_hot_key2[]=" �˵��ȼ�";
+const char zh_hot_key[]=" 睡眠热键";
+const char zh_hot_key2[]=" 菜单热键";
 
 const char zh_language[]=" LANGUAGE";
-const char zh_lang[]=" ����";
-const char zh_set_btn[]="����";
-const char zh_ok_btn[]="����";
-const char zh_formatnor_info[]="ȷ��?��Լ4����";
+const char zh_lang[]=" 中文";
+const char zh_set_btn[]="设置";
+const char zh_ok_btn[]="保存";
+const char zh_formatnor_info[]="确定?大约4分钟";
 
-const char zh_theme_credit[]="Simple���� v3.7";
+const char zh_theme_credit[]="Simple主题 v3.7";
 const char zh_theme_credit2[]="by Sterophonick";
 
-const char zh_check_sav[]="���SAV�ļ�";
-const char zh_make_sav[]="����SAV�ļ�";
+const char zh_check_sav[]="检查SAV文件";
+const char zh_make_sav[]="创建SAV文件";
 
-const char zh_check_RTS[]="���RTS�ļ�";
-const char zh_make_RTS[]="����RTS�ļ�";
+const char zh_check_RTS[]="检查RTS文件";
+const char zh_make_RTS[]="创建RTS文件";
 
-const char zh_check_pat[]="���PAT�ļ�";
-const char zh_make_pat[]="����PAT�ļ�";
+const char zh_check_pat[]="检查PAT文件";
+const char zh_make_pat[]="创建PAT文件";
 
-const char zh_please_wait[]="��ȴ�...";
+const char zh_please_wait[]="请等待...";
 
-const char zh_loading_game[]="������Ϸ";
+const char zh_loading_game[]="加载游戏";
 
-const char zh_no_roms[]="�Ҳ���.gba�ļ�!";
+const char zh_no_roms[]="找不到.gba文件!";
 
-const char zh_engine[]="     ����";
-const char zh_use_engine[]="���ٲ�������";
+const char zh_engine[]="     引擎";
+const char zh_use_engine[]="快速补丁引擎";
 
-const char zh_recently_play[]="�����Ϸ�б�";
+const char zh_recently_play[]="最近游戏列表";
 
-const char zh_START_help[]="�������Ϸ�б�";
-const char zh_SELECT_help[]="����ѡ��";
-const char zh_L_A_help[]="��ת������ѡ��";
-const char zh_LSTART_help[]="ɾ���ļ�";
-const char zh_LSELECT_help[]="ɾ�������ļ�";
-const char zh_online_manual[]="  ����˵����";
+const char zh_START_help[]="打开最近游戏列表";
+const char zh_SELECT_help[]="更多选项";
+const char zh_L_A_help[]="反转冷启动选项";
+const char zh_LSTART_help[]="删除文件";
+const char zh_LSELECT_help[]="删除保存文件";
+const char zh_online_manual[]="  在线说明书";
 
-const char zh_no_game_played[]="�����û�����Ϸ";
+const char zh_no_game_played[]="最近还没玩过游戏";
 
-const char zh_ingameRTC[]=" ��Ϸʱ��";
-const char zh_ingameRTC_open[]="��";
-const char zh_ingameRTC_close[]="�ر�";//TURNOFF TO POWER SAVE
+const char zh_ingameRTC[]=" 游戏时钟";
+const char zh_ingameRTC_open[]="打开";
+const char zh_ingameRTC_close[]="关闭";//TURNOFF TO POWER SAVE
 
-const char zh_error_0[]="�ļ��д���";
-const char zh_error_1[]="�ļ�����";
-const char zh_error_2[]="SAVER����";
-const char zh_error_3[]="�浵����";
-const char zh_error_4[]="��ȡ�浵����";
-const char zh_error_5[]="�����浵����";
-const char zh_error_6[]="RTS�ļ�����";
+const char zh_error_0[]="文件夹错误";
+const char zh_error_1[]="文件错误";
+const char zh_error_2[]="SAVER错误";
+const char zh_error_3[]="存档错误";
+const char zh_error_4[]="读取存档错误";
+const char zh_error_5[]="创建存档错误";
+const char zh_error_6[]="RTS文件错误";
 
-const char zh_copying_data[]="����ROM...";
-const char zh_generating_emu[]="����ģ����...";
+const char zh_copying_data[]="复制ROM...";
+const char zh_generating_emu[]="生成模拟器...";
 
 const char *zh_rom_menu[]={
-	"ֱ������",
-	"����������",
-	"��¼��NOR",
-	"��¼��NOR������",
-	"�浵����",
-	"����ָ",
+	"直接启动",
+	"启动带辅助",
+	"烧录到NOR",
+	"烧录到NOR带辅助",
+	"存档类型",
+	"金手指",
 };
 const char *zh_nor_op[3]={
-	"ֱ������",
-	"ɾ��",
-	"ȫ����ʽ��",
+	"直接运行",
+	"删除",
+	"全部格式化",
 };
 
-const char *zh_more_options[4]={
-	"�л�����ͼ",
-	"ʹ��BIOS���",
-	"�л�����",
-	"�л�����",
+const char *zh_more_options[5]={
+	"切换缩略图",
+	"使用BIOS简介",
+	"切换备份",
+	"切换粗体",
+	"快速启动游戏",
 };
 
 //English
@@ -298,7 +299,6 @@ const char *en_more_options[5]={
 	"Backup saves",
 	"Toggle bold",
 	"Quickboot game",
-	//Start Random Game
 };
 
 //---------------------------------------------------------------------------------
